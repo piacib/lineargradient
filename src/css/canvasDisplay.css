@@ -1,0 +1,27 @@
+canvas {
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+  }
+  
+.canvasDisplay {
+    border: 10px solid black;
+}
+.color1 {
+  position: absolute;
+  top: 2vh;
+  left: .25vw;
+  z-index: 1;
+}
+  
+.color2 {
+  position: absolute;
+  bottom: 2vh;
+  left: .25vw;
+  z-index: 1;
+}
+
+.display {
+  font-size: 5vh;
+
+  }

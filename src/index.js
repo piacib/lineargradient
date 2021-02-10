@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './css/index.css';
 import reportWebVitals from './reportWebVitals';
+import Canvas from './canvas.js' 
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Canvas />,
   document.getElementById('root')
 );
 

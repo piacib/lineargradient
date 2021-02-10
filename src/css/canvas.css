@@ -1,0 +1,7 @@
+:root {
+  --grid-template-column:auto 18vw; 
+}
+.App {
+  display: grid;
+  grid-template-columns: var(--grid-template-column);
+}

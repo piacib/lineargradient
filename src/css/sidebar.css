@@ -1,0 +1,32 @@
+:root {
+    --color:  antiquewhite;
+}
+.sidenav {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    /* display: grid;
+    grid-template-rows: 25vh 50vh 25vh; */
+    /* border: 1px solid; */
+    background-color: black;
+    /* opacity: .5; */
+    color:var(--color);
+    font-size: 4vh;
+}
+
+table { 
+    margin: 0 auto; 
+    border-collapse: collapse; 
+    border-style: hidden; 
+    /*Remove all the outside 
+    borders of the existing table*/ 
+} 
+table td { 
+    padding: 0.5rem; 
+    text-align: center;
+    border: 5px solid var(--color); 
+} 
+table th { 
+    padding: 0.5rem; 
+    border: 5px solid var(--color); 
+} 
